@@ -54,7 +54,8 @@ public class LoginActivity extends AppCompatActivity
         if(UserData.getBoolean("isLogin", false))
         {
             Toast.makeText(getApplicationContext(),"Already logged in",Toast.LENGTH_SHORT).show();
-            //finish();
+            startActivity(new Intent(LoginActivity.this, Dashboard.class));
+            finish();
         }
 
 
@@ -115,7 +116,8 @@ public class LoginActivity extends AppCompatActivity
                                 UserData.edit().putBoolean("isLogin", true).apply();
                                 UserData.edit().putString("Student_ID", user).apply();
                                 Toast.makeText(getApplicationContext(),"Logged success",Toast.LENGTH_SHORT).show();
-                                //finish();
+                                startActivity(new Intent(LoginActivity.this, Dashboard.class));
+                                finish();
                             } else {
                                 loginError.setText(stat);
                                 loginError.setVisibility(View.VISIBLE);
