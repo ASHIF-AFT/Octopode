@@ -1,63 +1,16 @@
 <resources>
     <string name="app_name" translatable="false">Octopode</string>
     <string name="base_url">"http://octopode.cf/"</string>
-    <string name="username_hint">Username</string>
-    <string name="password_hint">Password</string>
-    <string name="login_button">submit</string>
-    <string name="version">Version 1.1.131</string>
     <string name="login_title">Login</string>
     <string name="student_id">Username</string>
     <string name="student_password">Password</string>
     <string name="student_signin">Sign In</string>
-    <string name="student_signup">Sign Up</string>
-    <string name="new_student">New user?</string>
-    <string name="old_student">Already Registered?</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
-    <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings" translatable="false">Settings</string>
-    <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
-    <string name="menu_tools">Tools</string>
-    <string name="menu_share">Share</string>
-    <string name="menu_send">Send</string>
+    <string name="login_error">Username or Password is incorrect</string>
 
-    <string name="dash_updates" translatable="false">Updates</string>
-    <string name="dash_attendance" translatable="false">Attendance</string>
-    <string name="dash_internals" translatable="false">Internals</string>
-    <string name="dash_notes" translatable="false">Notes</string>
-    <string name="dash_projects" translatable="false">Projects</string>
-
-    <string name="signup_title">Sign Up</string>
-    <string name="name_user">Name</string>
-    <string name="email">E-mail</string>
-    <string name="new_password">New Password</string>
-    <string name="confirm_password" translatable="false">Confirm Passsword</string>
-    <string name="login_error">Student ID or Password is incorrect</string>
-    <string name="dash_helpdesk" translatable="false">Helpdesk</string>
-
-    <string name="trans_updates">update</string>
-    <string name="trans_notes">notes</string>
-    <string name="trans_attendance">attendance</string>
-    <string name="trans_internals">internals</string>
-    <string name="trans_projects">projects</string>
-    <string name="trans_helpdesk">helpdesk</string>
-    <string name="trans_doubts">doubts</string>
-
-    <string name="common_subjects">First Year</string>
-    <string name="sem3">Semester 3</string>
-    <string name="sem4">Semester 4</string>
-    <string name="sem5">Semester 5</string>
-    <string name="sem6">Semester 6</string>
-    <string name="sem7">Semester 7</string>
-    <string name="sem8">Semester 8</string>
-    <string name="logout">LOGOUT</string>
-    <string name="note_notFound">Notes not found. Kindly Contact Administrator</string>
-    <string name="ece_doubts">Academic Doubts</string>
-    <string name="general_doubts">Technical Doubts</string>
+    <string name="temperature_label">Temperature</string>
+    <string name="humidity_label">Humidity</string>
+    <string name="sample_temp">28°C</string>
+    <string name="sample_humi">76%</string>
 
 
 </resources>
