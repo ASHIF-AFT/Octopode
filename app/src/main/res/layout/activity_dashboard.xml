@@ -33,7 +33,7 @@
         android:layout_height="wrap_content"
         android:layout_marginVertical="5dp"
         app:cardElevation="2dp"
-        app:cardCornerRadius="5dp">
+        app:cardCornerRadius="1dp">
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/card_top"
             android:layout_width="match_parent"
